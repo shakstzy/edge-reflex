@@ -11,6 +11,11 @@
 [![Dynamics](https://img.shields.io/badge/Dynamics-Full_URDF_Inertia-blueviolet.svg)]()
 [![Throughput](https://img.shields.io/badge/Frequency->2,500_Hz-success.svg)]()
 
+<div align="center">
+  <img src="assets/franka_reflex_demo.gif" alt="7-DOF Franka Panda 1 kHz Safety Reflex Shield" width="720" />
+  <p><em><b>Figure 1</b>: 3D Real-time trajectory simulation on 7-DOF Franka Emika Panda. <br/><b>Red</b>: Unshielded 10 Hz VLA chunk penetrating obstacle volume (Crash). <b>Green</b>: 1 kHz Feasible-HOCBF shield sliding tangentially along safety boundary in 400 µs without violating motor envelopes.</em></p>
+</div>
+
 ---
 
 ## The Open Research Problem: Actuator Torque Saturation Infeasibility
@@ -87,6 +92,10 @@ is strictly decreasing and continuous in $\lambda \ge 0$.
 ---
 
 ## Empirical Benchmark: Active VLA Action Chunk Collision
+
+<div align="center">
+  <img src="assets/benchmark_telemetry.png" alt="Empirical Benchmark Telemetry" width="100%" />
+</div>
 
 Evaluated under an active high-torque VLA reaching chunk pushing directly through an obstacle:
 
