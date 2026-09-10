@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge-reflex"
+version = "0.1.0"
+description = "Sub-2ms Deterministic Reflex Shield for Vision-Language-Action (VLA) Robotics"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Adithya (@shakstzy)", email = "adithya@dipar.ai"}
+]
+dependencies = [
+    "numpy>=1.22.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/shakstzy/edge-reflex"
+Repository = "https://github.com/shakstzy/edge-reflex"
