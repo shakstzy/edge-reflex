@@ -1,7 +1,7 @@
 # edge-reflex
 
 > **Sub-2ms Deterministic Reflex Shield for Vision-Language-Action (VLA) Robotics**  
-> Built by Adithya ([@shakstzy](https://github.com/shakstzy)) at **Dipar**.
+> Built by Adithya ([@shakstzy](https://github.com/shakstzy)).
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9+-brightgreen.svg)](https://www.python.org/)
@@ -134,4 +134,4 @@ Payload Outcome                  |  DROPPED (Slip) | CRASH (Overheat) | SAVED (R
 
 ## License
 
-Apache License 2.0. Copyright (c) 2026 Adithya ([@shakstzy](https://github.com/shakstzy)) / Dipar.
+Apache License 2.0. Copyright (c) 2026 Adithya ([@shakstzy](https://github.com/shakstzy)).
